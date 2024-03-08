@@ -1,0 +1,129 @@
+*{
+    font-family: arial;
+    font-size: 24px;
+}
+body{
+    margin: 0px;
+    background-color: #f2f2f2f2;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px
+}
+p{
+    margin: 0px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.container_logo{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    padding: 50px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav_list {
+    display: flex;
+    list-style: none;    
+}
+.li_box{
+    background-color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 30px;
+    margin-left: 30px;
+}
+
+.foto_bike{
+    max-width: 1000px;
+    height: auto;
+    width: auto;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px
+}
+.valor{
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.grid_descricao{
+    background-color: white;
+    display: grid;
+    align-content: center;
+    justify-items: right;
+    padding: 35px;
+    gap: 10px;
+}
+.botao_comprar{
+    color:white;
+    text-decoration: none;
+    background-color: #ee2211;
+    padding: 5px 10px;
+}
+.botao_comprar:hover{
+    color:rgba(0, 0, 0, 0.781);
+    text-decoration: none;
+    background-color: rgb(158, 8, 8);
+    padding: 5px 10px;
+}
+#vantagens_bikecraft{
+    text-transform: uppercase;
+    text-align: right;
+    padding: 80px;
+    color: #c6c6c6;
+    opacity: 60%;
+    font-size: 64px;
+}
+.grid_vantagens{
+    background-color: white;
+    display: grid;
+    align-content: center;
+    justify-items: start;
+    padding: 40px;
+    gap: 10px;
+}
+.info_container {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+}
+#icone{
+    padding-right: 25px;
+}
+footer{
+    background-color: white;
+}
+.rodape{
+    padding:35px;
+    color:black;
+    text-align: center;
+}
+.bike_titulo{
+    font-size: 52px;
+}
+.bike_descricao{
+    padding-left: 300px;
+    text-align: right;
+}
+.traco{
+    background-color: red;
+    border: 5px solid red;
+    width: 100px;
+    border-radius: 5px;
+    position: absolute;
+    top: 42%;
+    left: 43.5%; 
+    transform: translate(0, -100%); 
+}
+#vantagens_text{
+    width: 450px;
+}

@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "IBM Plex Serif", serif;
+    color: white;
+}
+a {
+    color:white;
+    text-decoration: none;
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+}
+
+nav a:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+.logo{
+    width: 185px; 
+    height: 75px; 
+    transform: translate(-100%, 0); /* Centraliza horizontalmente */
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #294F40;
+    height: 100px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    transform: translate(30%, 0); /* Centraliza horizontalmente */
+
+}
+.nav-list li{
+    letter-spacing: 1px;
+    margin-left: 32px;
+}
+
+.nav-list li a.accessibility::after,
+.nav-list li a.idioma::after {
+    content: '';
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid white;
+    margin-left: 5px;
+    vertical-align: middle; 
+    display: inline-block; 
+}
+

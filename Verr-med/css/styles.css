@@ -1,0 +1,53 @@
+
+.imagem-mulher {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+.pelicula-imagem-mulher{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.397); /* Cor cinza com 50% de opacidade */
+    z-index: 0; /* Certifique-se de que a película está acima da imagem */
+}
+
+.texto-inicio{
+    position: absolute;
+    width: 850px;
+    top: 50%; /* Ajusta pra esquerda o texto */
+    left: 3%; /* Ajusta pra esquerda o texto */
+    transform: translate(0, -100%); /* centraliza na vertical */
+    font-family: 'IBM Plex Serif', serif;
+
+}
+.titulo{
+    font-size: 80px;
+}
+.texto{
+    font-size: 40px;
+}
+.query-button {
+    position: absolute;
+    top: 80%; /* Ajuste posição vertical do butao */
+    left: 50%;
+    transform: translate(-50%, 0); /* Centraliza horizontalmente */
+}
+
+.query-button a button {
+    text-decoration: none;
+    background-color: #639783; /* Substitua essa cor pelo código da cor desejada */
+    padding: 10px 20px; /* Adapte o preenchimento conforme necessário */
+    border: none; /* Remove a borda do botão */
+    border-radius: 50px; 
+    font-size: 30px;
+    padding: 5;
+    
+}
+.query-button a button:hover {
+    cursor: pointer;
+    background-color: #56ac8b;
+}

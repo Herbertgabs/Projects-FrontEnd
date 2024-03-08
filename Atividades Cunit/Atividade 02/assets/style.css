@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    border: 5px solid #000;
+    text-align: center;
+    padding: 20px;
+}
+
+.titulo_produto {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+}
+
+.img_bike {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.preco {
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.descricao {
+    display: inline-block;
+    text-align: left;
+}
+
+.botao_comprar {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 10px;
+}
